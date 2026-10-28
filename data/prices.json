@@ -1,0 +1,42 @@
+{
+  "currency": "USD",
+  "note": "Published ranges from third-party guides and clinic price pages. Estimates only, not quotes. Ranges cover different inclusions (post only vs. post+abutment+crown), so check each source.",
+  "procedures": {
+    "single_implant": "Single implant (post + abutment + crown)",
+    "all_on_4": "Full arch / All-on-4 (per arch)",
+    "crown": "Crown (zirconia, single)",
+    "bone_graft": "Bone graft (per site)"
+  },
+  "prices": {
+    "US": {
+      "single_implant": [{"low":3760,"high":5733,"avg":4507,"source":"https://realdentalcosts.com/en/state-of-us-dental-costs-2026/","label":"RealDentalCosts, State of U.S. Dental Costs 2026","as_of":"2026-07"},
+                         {"low":3158,"high":6533,"avg":4259,"source":"https://www.aspendental.com/pricing-offers/dental-implants-cost/","label":"Aspen Dental pricing guide (2026 internal data)","as_of":"2026"}],
+      "all_on_4": [{"low":11642,"high":27505,"avg":15179,"source":"https://realdentalcosts.com/en/state-of-us-dental-costs-2026/","label":"RealDentalCosts 2026 (labelled estimate)","as_of":"2026-07"}],
+      "crown": [{"low":1046,"high":2331,"avg":1369,"source":"https://realdentalcosts.com/en/state-of-us-dental-costs-2026/","label":"RealDentalCosts 2026, citing ASQ360/CareCredit","as_of":"2026-07"}],
+      "bone_graft": [{"low":250,"high":1100,"source":"https://dentistrytodayonline.com/dental-implants-cost/","label":"Dentistry Today Online 2026 guide","as_of":"2026"}]
+    },
+    "MX": {
+      "single_implant": [{"low":1200,"high":1650,"source":"https://mexicodentalimplantsguide.com/dental-implants-in-mexico-cost/","label":"Mexico Dental Implants Guide 2026","as_of":"2026"},
+                         {"low":1550,"high":1850,"region":"Tijuana","source":"https://www.medicaltourismco.com/dental-work-in-tijuana-cost-quality-and-reviews/","label":"MedicalTourismCo Tijuana price list","as_of":"2026"}],
+      "all_on_4": [{"low":8500,"high":11000,"source":"https://mexicodentalimplantsguide.com/dental-implants-in-mexico-cost/","label":"Mexico Dental Implants Guide 2026","as_of":"2026"},
+                   {"low":8125,"high":9689,"avg":8900,"region":"Los Algodones (p25-p75, median)","source":"https://toothcation.com/price-index.csv","label":"Toothcation price index (18 clinics)","as_of":"2026-10-27"}],
+      "crown": [{"low":450,"high":550,"avg":500,"region":"Tijuana (p25-p75, median)","source":"https://toothcation.com/price-index.csv","label":"Toothcation price index (33 clinics)","as_of":"2026-10-27"}],
+      "bone_graft": [{"low":400,"high":1200,"source":"https://mexicodentalimplantsguide.com/dental-implants-in-mexico-cost/","label":"Mexico Dental Implants Guide 2026","as_of":"2026"}]
+    },
+    "CR": {
+      "single_implant": [{"low":800,"high":1600,"source":"https://vitalityscout.com/guides/costa-rica-dental-prices","label":"VitalityScout: lowest published prices on 6 clinic sites (implant; inclusions vary)","as_of":"2026-07"}],
+      "all_on_4": [{"low":8500,"high":14500,"source":"https://www.medicaltourismco.com/all-on-4-dental-implant-in-costa-rica/","label":"MedicalTourismCo Costa Rica All-on-4","as_of":"2026"},
+                   {"low":10558,"high":12000,"avg":11705,"region":"San José (p25-p75, median)","source":"https://toothcation.com/price-index.csv","label":"Toothcation price index","as_of":"2026-10-11"}],
+      "crown": [{"low":505,"high":609,"avg":560,"region":"San José (p25-p75, median)","source":"https://toothcation.com/price-index.csv","label":"Toothcation price index (3 clinics)","as_of":"2026-10-07"}],
+      "bone_graft": []
+    },
+    "AR": {
+      "single_implant": [{"low":1000,"high":1800,"region":"Buenos Aires","source":"https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/","label":"Consultorios Dra. Blois (Buenos Aires)","as_of":"2026"},
+                         {"low":3000,"high":3500,"region":"Buenos Aires, all-in incl. graft","source":"https://www.amesteticadental.com/en/dental-implants-cost-buenos-aires","label":"AM Estética Dental (Buenos Aires), 'from' prices","as_of":"2026"}],
+      "all_on_4": [{"low":8000,"high":12000,"region":"Buenos Aires","source":"https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/","label":"Consultorios Dra. Blois (incl. national implants + provisional fixed prosthesis)","as_of":"2026"}],
+      "crown": [{"low":450,"high":800,"region":"Buenos Aires (implant crown)","source":"https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/","label":"Consultorios Dra. Blois","as_of":"2026"}],
+      "bone_graft": [{"low":300,"high":1500,"region":"Buenos Aires (graft or sinus lift)","source":"https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/","label":"Consultorios Dra. Blois","as_of":"2026"}]
+    }
+  },
+  "missing": ["Costa Rica bone graft: no reliable published figure found", "Córdoba (AR): only ARS figures found (e.g. from ARS 500,000 at Sublimis); not converted to USD because of exchange-rate volatility"]
+}

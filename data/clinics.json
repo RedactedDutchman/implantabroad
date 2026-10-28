@@ -1,0 +1,259 @@
+{
+ "note": "Website existence checked only. No credential, quality or registration verification. No endorsements.",
+ "clinics": [
+  {
+   "name": "SOTA Dental",
+   "country": "MX",
+   "url": "https://sotadental.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Cancún",
+    "Los Algodones",
+    "Tijuana"
+   ]
+  },
+  {
+   "name": "Marietta Dental Care",
+   "country": "MX",
+   "url": "https://www.mariettadentalcare.com.mx/",
+   "procedures": [
+    "single_implant",
+    "all_on_4"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Los Algodones",
+    "Tijuana"
+   ]
+  },
+  {
+   "name": "Sani Dental Group",
+   "country": "MX",
+   "url": "https://sanidentalgroup.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "crown"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Los Algodones",
+    "Cancún"
+   ]
+  },
+  {
+   "name": "North Dental",
+   "country": "MX",
+   "url": "https://northdentalmx.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Los Algodones"
+   ]
+  },
+  {
+   "name": "Grand Diamond Dental",
+   "country": "MX",
+   "url": "https://www.granddiamonddental.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Los Algodones"
+   ]
+  },
+  {
+   "name": "Algodones Dental Center",
+   "country": "MX",
+   "url": "https://www.algodonesdentalcenter.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "bone_graft"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Los Algodones"
+   ]
+  },
+  {
+   "name": "Dental Solutions Algodones",
+   "country": "MX",
+   "url": "https://dentalsolutionsalgodones.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "bone_graft"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Los Algodones"
+   ]
+  },
+  {
+   "name": "Prisma Dental",
+   "country": "CR",
+   "url": "https://prismadental.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "San José"
+   ]
+  },
+  {
+   "name": "Meza Dental Care",
+   "country": "CR",
+   "url": "https://www.mezadentalcare.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "San José"
+   ]
+  },
+  {
+   "name": "Goodness Dental",
+   "country": "CR",
+   "url": "https://www.goodnessdental.com/",
+   "procedures": [
+    "single_implant"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Escazú"
+   ]
+  },
+  {
+   "name": "Consultorios Dra. Blois",
+   "country": "AR",
+   "url": "https://drablois.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "bone_graft"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Buenos Aires"
+   ]
+  },
+  {
+   "name": "AmoSmile",
+   "country": "AR",
+   "url": "https://amosmile.ar/implantes/",
+   "procedures": [
+    "single_implant"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Buenos Aires"
+   ]
+  },
+  {
+   "name": "AM Estética Dental",
+   "country": "AR",
+   "url": "https://www.amesteticadental.com/",
+   "procedures": [
+    "single_implant"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Buenos Aires"
+   ]
+  },
+  {
+   "name": "Od. Clara Rossello",
+   "country": "AR",
+   "url": "https://www.odclararossello.com.ar/",
+   "procedures": [
+    "single_implant",
+    "crown"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Buenos Aires"
+   ]
+  },
+  {
+   "name": "Solución Dental",
+   "country": "AR",
+   "url": "https://soluciondental.com.ar/",
+   "procedures": [
+    "single_implant",
+    "bone_graft"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Buenos Aires"
+   ]
+  },
+  {
+   "name": "Sublimis",
+   "country": "AR",
+   "url": "https://www.sublimis.com/odontologia-argentina-implantes-dentales.html",
+   "procedures": [
+    "single_implant"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Córdoba"
+   ]
+  },
+  {
+   "name": "BIS Odontología",
+   "country": "AR",
+   "url": "https://bisodontologia.com/implantes-dentales/",
+   "procedures": [
+    "single_implant"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Córdoba"
+   ]
+  },
+  {
+   "name": "Clínica Dental Torreblanca",
+   "country": "AR",
+   "url": "https://torreblancaodontologia.com.ar/",
+   "procedures": [
+    "single_implant"
+   ],
+   "status": "unverified listing - not yet partnered",
+   "website_checked": "2026-10-27",
+   "cities": [
+    "Córdoba"
+   ]
+  }
+ ]
+}

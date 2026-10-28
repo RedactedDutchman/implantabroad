@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://redacteddutchman.github.io/implantabroad/sitemap.xml
