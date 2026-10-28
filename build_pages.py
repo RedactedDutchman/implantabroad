@@ -19,7 +19,7 @@ f'''<h1>Dental implant prices: US vs Mexico, Costa Rica &amp; Argentina</h1>
 <p>A price tracker built from published, sourced figures. Every number links to where it came from and carries an "as of" date. These are estimates, not quotes.</p>
 <div class="card"><h2>Savings calculator</h2><form id="calc"><label for="procedure">Procedure</label><select id="procedure" name="procedure">{PROC}</select>
 <label for="quote">Your US quote (USD)</label><input id="quote" name="quote" type="text" inputmode="decimal" placeholder="e.g. 4500" aria-describedby="quote-msg"><div id="quote-msg" role="alert" style="color:#b91c1c;font-size:.9rem"></div>
-<label for="country">Destination</label><select id="country" name="country"><option value="MX">Mexico</option><option value="CR">Costa Rica</option><option value="AR">Argentina</option></select>
+<label for="country">Destination</label><select id="country" name="country"><option value="ANY" selected>Any country (show cheapest)</option><option value="MX">Mexico</option><option value="CR">Costa Rica</option><option value="AR">Argentina</option></select>
 <button type="submit">Estimate savings</button></form><div id="result" aria-live="polite"></div></div>
 <div class="grid"><div class="card"><h3><a href="/dental-implants-mexico.html">Mexico</a></h3>Los Algodones, Tijuana, Cancún.</div><div class="card"><h3><a href="/dental-implants-costa-rica.html">Costa Rica</a></h3>San José, Escazú.</div><div class="card"><h3><a href="/dental-implants-argentina.html">Argentina</a></h3>Buenos Aires, Córdoba.</div></div>
 <h2>Guides</h2><ul><li><a href="/dental-implants-cost-mexico-vs-usa.html">Dental implants cost in Mexico vs USA</a></li><li><a href="/dental-implants-argentina-cost.html">Dental implants in Argentina: cost</a></li><li><a href="/is-dental-tourism-safe.html">Is dental tourism safe?</a></li></ul>
@@ -50,7 +50,7 @@ COMMON+'<li><strong>Argentina checks:</strong> dentists hold a matrícula (natio
 
 page("clinics.html","Dental Implant Clinic Directory: Mexico, Costa Rica, Argentina | ImplantAbroad","Filter dental implant clinics by country, city and procedure. Unverified listings, not endorsements.",
 f'''<h1>Clinic directory</h1><p class="notice">Every listing is an <strong>unverified listing – not yet partnered</strong>. We checked that the clinic website exists; we did not verify licences, quality or prices. Inclusion is not an endorsement.</p>
-<form id="filters" class="card grid"><div><label for="fc">Country</label><select id="fc" name="country"><option value="">All</option><option value="MX">Mexico</option><option value="CR">Costa Rica</option><option value="AR">Argentina</option></select></div>
+<form id="filters" class="card grid"><div><label for="fc">Country</label><select id="fc" name="country"><option value="" selected>All countries</option><option value="MX">Mexico</option><option value="CR">Costa Rica</option><option value="AR">Argentina</option></select></div>
 <div><label for="fci">City</label><select id="fci" name="city"><option value="">All</option></select></div><div><label for="fp">Procedure</label><select id="fp" name="procedure"><option value="">All</option>{PROC}</select></div></form>
 <div data-clinics="all" class="grid"></div><p>Clinic? <a href="/get-listed.html">Get listed</a>. Spot an error? Contact: coming soon.</p>''')
 
