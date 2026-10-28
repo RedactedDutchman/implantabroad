@@ -1,42 +1,899 @@
 {
-  "currency": "USD",
-  "note": "Published ranges from third-party guides and clinic price pages. Estimates only, not quotes. Ranges cover different inclusions (post only vs. post+abutment+crown), so check each source.",
-  "procedures": {
-    "single_implant": "Single implant (post + abutment + crown)",
-    "all_on_4": "Full arch / All-on-4 (per arch)",
-    "crown": "Crown (zirconia, single)",
-    "bone_graft": "Bone graft (per site)"
-  },
-  "prices": {
-    "US": {
-      "single_implant": [{"low":3760,"high":5733,"avg":4507,"source":"https://realdentalcosts.com/en/state-of-us-dental-costs-2026/","label":"RealDentalCosts, State of U.S. Dental Costs 2026","as_of":"2026-07"},
-                         {"low":3158,"high":6533,"avg":4259,"source":"https://www.aspendental.com/pricing-offers/dental-implants-cost/","label":"Aspen Dental pricing guide (2026 internal data)","as_of":"2026"}],
-      "all_on_4": [{"low":11642,"high":27505,"avg":15179,"source":"https://realdentalcosts.com/en/state-of-us-dental-costs-2026/","label":"RealDentalCosts 2026 (labelled estimate)","as_of":"2026-07"}],
-      "crown": [{"low":1046,"high":2331,"avg":1369,"source":"https://realdentalcosts.com/en/state-of-us-dental-costs-2026/","label":"RealDentalCosts 2026, citing ASQ360/CareCredit","as_of":"2026-07"}],
-      "bone_graft": [{"low":250,"high":1100,"source":"https://dentistrytodayonline.com/dental-implants-cost/","label":"Dentistry Today Online 2026 guide","as_of":"2026"}]
+ "currency": "USD",
+ "updated": "2026-10-28",
+ "note": "Published ranges from cost surveys, price indexes, facilitators and clinic price pages. Estimates only, not quotes. Inclusions differ between sources; single 'from' prices are shown as low = high.",
+ "countries": {
+  "US": "United States",
+  "MX": "Mexico",
+  "CR": "Costa Rica",
+  "CO": "Colombia",
+  "AR": "Argentina"
+ },
+ "procedures": {
+  "single_implant": "Single implant (post + abutment + crown)",
+  "all_on_4": "Full arch / All-on-4 (per arch)",
+  "all_on_6": "Full arch / All-on-6 (per arch)",
+  "crown": "Crown (zirconia / ceramic, single)",
+  "veneer": "Porcelain veneer (per tooth)",
+  "root_canal": "Root canal",
+  "cleaning": "Cleaning / check-up",
+  "bone_graft": "Bone graft (per site)",
+  "sinus_lift": "Sinus lift"
+ },
+ "prices": {
+  "US": {
+   "single_implant": [
+    {
+     "low": 3760,
+     "high": 5733,
+     "source": "https://realdentalcosts.com/en/state-of-us-dental-costs-2026/",
+     "label": "RealDentalCosts, State of U.S. Dental Costs 2026",
+     "as_of": "2026-07",
+     "avg": 4507
     },
-    "MX": {
-      "single_implant": [{"low":1200,"high":1650,"source":"https://mexicodentalimplantsguide.com/dental-implants-in-mexico-cost/","label":"Mexico Dental Implants Guide 2026","as_of":"2026"},
-                         {"low":1550,"high":1850,"region":"Tijuana","source":"https://www.medicaltourismco.com/dental-work-in-tijuana-cost-quality-and-reviews/","label":"MedicalTourismCo Tijuana price list","as_of":"2026"}],
-      "all_on_4": [{"low":8500,"high":11000,"source":"https://mexicodentalimplantsguide.com/dental-implants-in-mexico-cost/","label":"Mexico Dental Implants Guide 2026","as_of":"2026"},
-                   {"low":8125,"high":9689,"avg":8900,"region":"Los Algodones (p25-p75, median)","source":"https://toothcation.com/price-index.csv","label":"Toothcation price index (18 clinics)","as_of":"2026-10-27"}],
-      "crown": [{"low":450,"high":550,"avg":500,"region":"Tijuana (p25-p75, median)","source":"https://toothcation.com/price-index.csv","label":"Toothcation price index (33 clinics)","as_of":"2026-10-27"}],
-      "bone_graft": [{"low":400,"high":1200,"source":"https://mexicodentalimplantsguide.com/dental-implants-in-mexico-cost/","label":"Mexico Dental Implants Guide 2026","as_of":"2026"}]
+    {
+     "low": 3158,
+     "high": 6533,
+     "source": "https://www.aspendental.com/pricing-offers/dental-implants-cost/",
+     "label": "Aspen Dental pricing guide (2026 internal data)",
+     "as_of": "2026",
+     "avg": 4259
     },
-    "CR": {
-      "single_implant": [{"low":800,"high":1600,"source":"https://vitalityscout.com/guides/costa-rica-dental-prices","label":"VitalityScout: lowest published prices on 6 clinic sites (implant; inclusions vary)","as_of":"2026-07"}],
-      "all_on_4": [{"low":8500,"high":14500,"source":"https://www.medicaltourismco.com/all-on-4-dental-implant-in-costa-rica/","label":"MedicalTourismCo Costa Rica All-on-4","as_of":"2026"},
-                   {"low":10558,"high":12000,"avg":11705,"region":"San José (p25-p75, median)","source":"https://toothcation.com/price-index.csv","label":"Toothcation price index","as_of":"2026-10-11"}],
-      "crown": [{"low":505,"high":609,"avg":560,"region":"San José (p25-p75, median)","source":"https://toothcation.com/price-index.csv","label":"Toothcation price index (3 clinics)","as_of":"2026-10-07"}],
-      "bone_graft": []
-    },
-    "AR": {
-      "single_implant": [{"low":1000,"high":1800,"region":"Buenos Aires","source":"https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/","label":"Consultorios Dra. Blois (Buenos Aires)","as_of":"2026"},
-                         {"low":3000,"high":3500,"region":"Buenos Aires, all-in incl. graft","source":"https://www.amesteticadental.com/en/dental-implants-cost-buenos-aires","label":"AM Estética Dental (Buenos Aires), 'from' prices","as_of":"2026"}],
-      "all_on_4": [{"low":8000,"high":12000,"region":"Buenos Aires","source":"https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/","label":"Consultorios Dra. Blois (incl. national implants + provisional fixed prosthesis)","as_of":"2026"}],
-      "crown": [{"low":450,"high":800,"region":"Buenos Aires (implant crown)","source":"https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/","label":"Consultorios Dra. Blois","as_of":"2026"}],
-      "bone_graft": [{"low":300,"high":1500,"region":"Buenos Aires (graft or sinus lift)","source":"https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/","label":"Consultorios Dra. Blois","as_of":"2026"}]
+    {
+     "low": 3000,
+     "high": 6500,
+     "source": "https://dentalimplantcostbystate.com/",
+     "label": "Dental Implant Cost By State 2026",
+     "as_of": "2026",
+     "avg": 4500
     }
+   ],
+   "all_on_4": [
+    {
+     "low": 11642,
+     "high": 27505,
+     "source": "https://realdentalcosts.com/en/state-of-us-dental-costs-2026/",
+     "label": "RealDentalCosts, State of U.S. Dental Costs 2026",
+     "as_of": "2026-07",
+     "avg": 15179
+    },
+    {
+     "low": 14000,
+     "high": 32000,
+     "source": "https://dentalimplantcostbystate.com/",
+     "label": "Dental Implant Cost By State 2026",
+     "as_of": "2026",
+     "avg": 23500
+    }
+   ],
+   "all_on_6": [
+    {
+     "low": 31000,
+     "high": 31000,
+     "source": "https://www.dentavacation.com/cost-of-dental-implants-in-costa-rica/",
+     "label": "DentaVacation (facilitator) stated US average",
+     "as_of": "2026"
+    }
+   ],
+   "crown": [
+    {
+     "low": 1046,
+     "high": 2331,
+     "source": "https://realdentalcosts.com/en/state-of-us-dental-costs-2026/",
+     "label": "RealDentalCosts 2026, citing ASQ360/CareCredit",
+     "as_of": "2026-07",
+     "avg": 1369
+    },
+    {
+     "low": 1400,
+     "high": 1400,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation 'US typical' reference",
+     "as_of": "2026-10"
+    }
+   ],
+   "veneer": [
+    {
+     "low": 498,
+     "high": 2884,
+     "source": "https://realdentalcosts.com/en/state-of-us-dental-costs-2026/",
+     "label": "RealDentalCosts 2026, citing ASQ360/CareCredit",
+     "as_of": "2026-07",
+     "avg": 1759
+    },
+    {
+     "low": 900,
+     "high": 2500,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation 'US typical' reference",
+     "as_of": "2026-10"
+    }
+   ],
+   "root_canal": [
+    {
+     "low": 500,
+     "high": 1500,
+     "source": "https://realdentalcosts.com/en/state-of-us-dental-costs-2026/",
+     "label": "RealDentalCosts 2026 (labelled estimate)",
+     "as_of": "2026-07",
+     "avg": 1100
+    },
+    {
+     "low": 900,
+     "high": 1500,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation 'US typical' reference",
+     "as_of": "2026-10"
+    }
+   ],
+   "cleaning": [
+    {
+     "low": 50,
+     "high": 350,
+     "source": "https://realdentalcosts.com/en/state-of-us-dental-costs-2026/",
+     "label": "RealDentalCosts 2026: exam, cleaning & X-rays (labelled estimate)",
+     "as_of": "2026-07",
+     "avg": 203
+    }
+   ],
+   "bone_graft": [
+    {
+     "low": 250,
+     "high": 1100,
+     "source": "https://dentistrytodayonline.com/dental-implants-cost/",
+     "label": "Dentistry Today Online 2026 guide",
+     "as_of": "2026"
+    }
+   ],
+   "sinus_lift": []
   },
-  "missing": ["Costa Rica bone graft: no reliable published figure found", "Córdoba (AR): only ARS figures found (e.g. from ARS 500,000 at Sublimis); not converted to USD because of exchange-rate volatility"]
+  "MX": {
+   "single_implant": [
+    {
+     "low": 1200,
+     "high": 1650,
+     "source": "https://mexicodentalimplantsguide.com/dental-implants-in-mexico-cost/",
+     "label": "Mexico Dental Implants Guide 2026",
+     "as_of": "2026"
+    },
+    {
+     "low": 1100,
+     "high": 1550,
+     "source": "https://mexicodentalimplantsguide.com/dental-implants-in-mexico-cost/",
+     "label": "Mexico Dental Implants Guide 2026",
+     "as_of": "2026",
+     "region": "Los Algodones"
+    },
+    {
+     "low": 1200,
+     "high": 1600,
+     "source": "https://mexicodentalimplantsguide.com/dental-implants-in-mexico-cost/",
+     "label": "Mexico Dental Implants Guide 2026",
+     "as_of": "2026",
+     "region": "Tijuana"
+    },
+    {
+     "low": 1400,
+     "high": 1850,
+     "source": "https://mexicodentalimplantsguide.com/dental-implants-in-mexico-cost/",
+     "label": "Mexico Dental Implants Guide 2026",
+     "as_of": "2026",
+     "region": "Cancún"
+    },
+    {
+     "low": 1550,
+     "high": 1850,
+     "source": "https://www.medicaltourismco.com/dental-work-in-tijuana-cost-quality-and-reviews/",
+     "label": "MedicalTourismCo Tijuana price list",
+     "as_of": "2026",
+     "region": "Tijuana"
+    },
+    {
+     "low": 1500,
+     "high": 1900,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 17 clinics",
+     "as_of": "2026-10-19",
+     "region": "Tijuana",
+     "avg": 1610
+    },
+    {
+     "low": 1252,
+     "high": 1620,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 3 clinics",
+     "as_of": "2026-10-16",
+     "region": "Cancún",
+     "avg": 1580
+    }
+   ],
+   "all_on_4": [
+    {
+     "low": 8500,
+     "high": 11000,
+     "source": "https://mexicodentalimplantsguide.com/dental-implants-in-mexico-cost/",
+     "label": "Mexico Dental Implants Guide 2026",
+     "as_of": "2026"
+    },
+    {
+     "low": 8125,
+     "high": 9689,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 18 clinics",
+     "as_of": "2026-10-27",
+     "region": "Los Algodones",
+     "avg": 8900
+    },
+    {
+     "low": 8000,
+     "high": 10850,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 31 clinics",
+     "as_of": "2026-10-27",
+     "region": "Tijuana",
+     "avg": 9500
+    },
+    {
+     "low": 6500,
+     "high": 10900,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 13 clinics",
+     "as_of": "2026-10-27",
+     "region": "Cancún",
+     "avg": 9639
+    },
+    {
+     "low": 11525,
+     "high": 13534,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 3 clinics",
+     "as_of": "2026-10-10",
+     "region": "Mexico City",
+     "avg": 11525
+    },
+    {
+     "low": 9900,
+     "high": 9900,
+     "source": "https://dentalsolutionsalgodones.com/price-list/",
+     "label": "Dental Solutions Algodones clinic price list",
+     "as_of": "2026",
+     "region": "Los Algodones"
+    }
+   ],
+   "all_on_6": [
+    {
+     "low": 10000,
+     "high": 15000,
+     "source": "https://www.placidway.com/article/4307/dental-implants-in-mexico-cities-costs-comparison",
+     "label": "PlacidWay Mexico city comparison (June 2026 pricing)",
+     "as_of": "2026-06",
+     "region": "Los Algodones"
+    },
+    {
+     "low": 8500,
+     "high": 13500,
+     "source": "https://www.placidway.com/article/4307/dental-implants-in-mexico-cities-costs-comparison",
+     "label": "PlacidWay Mexico city comparison (June 2026 pricing)",
+     "as_of": "2026-06",
+     "region": "Tijuana"
+    },
+    {
+     "low": 10500,
+     "high": 14500,
+     "source": "https://www.placidway.com/article/4307/dental-implants-in-mexico-cities-costs-comparison",
+     "label": "PlacidWay Mexico city comparison (June 2026 pricing)",
+     "as_of": "2026-06",
+     "region": "Cancún"
+    },
+    {
+     "low": 9000,
+     "high": 15000,
+     "source": "https://www.medicaltourismco.com/dental-work-in-tijuana-cost-quality-and-reviews/",
+     "label": "MedicalTourismCo Tijuana price list",
+     "as_of": "2026",
+     "region": "Tijuana"
+    },
+    {
+     "low": 12100,
+     "high": 12100,
+     "source": "https://dentalsolutionsalgodones.com/price-list/",
+     "label": "Dental Solutions Algodones clinic price list",
+     "as_of": "2026",
+     "region": "Los Algodones"
+    }
+   ],
+   "crown": [
+    {
+     "low": 450,
+     "high": 550,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 33 clinics",
+     "as_of": "2026-10-27",
+     "region": "Tijuana",
+     "avg": 500
+    },
+    {
+     "low": 384,
+     "high": 467,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 16 clinics",
+     "as_of": "2026-10-27",
+     "region": "Cancún",
+     "avg": 450
+    },
+    {
+     "low": 406,
+     "high": 500,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 18 clinics",
+     "as_of": "2026-10-27",
+     "region": "Los Algodones",
+     "avg": 450
+    },
+    {
+     "low": 431,
+     "high": 643,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 7 clinics",
+     "as_of": "2026-10-26",
+     "region": "Mexico City",
+     "avg": 477
+    }
+   ],
+   "veneer": [
+    {
+     "low": 440,
+     "high": 548,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 31 clinics",
+     "as_of": "2026-10-27",
+     "region": "Tijuana",
+     "avg": 500
+    },
+    {
+     "low": 257,
+     "high": 450,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 20 clinics",
+     "as_of": "2026-10-27",
+     "region": "Cancún",
+     "avg": 372
+    },
+    {
+     "low": 373,
+     "high": 500,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 15 clinics",
+     "as_of": "2026-10-28",
+     "region": "Los Algodones",
+     "avg": 450
+    },
+    {
+     "low": 348,
+     "high": 562,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 8 clinics",
+     "as_of": "2026-10-26",
+     "region": "Mexico City",
+     "avg": 418
+    }
+   ],
+   "root_canal": [
+    {
+     "low": 268,
+     "high": 350,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 34 clinics",
+     "as_of": "2026-10-25",
+     "region": "Tijuana",
+     "avg": 323
+    },
+    {
+     "low": 142,
+     "high": 329,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 22 clinics",
+     "as_of": "2026-10-27",
+     "region": "Cancún",
+     "avg": 234
+    },
+    {
+     "low": 221,
+     "high": 394,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 14 clinics",
+     "as_of": "2026-10-28",
+     "region": "Los Algodones",
+     "avg": 290
+    },
+    {
+     "low": 208,
+     "high": 355,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 12 clinics",
+     "as_of": "2026-10-26",
+     "region": "Mexico City",
+     "avg": 262
+    }
+   ],
+   "cleaning": [],
+   "bone_graft": [
+    {
+     "low": 400,
+     "high": 1200,
+     "source": "https://mexicodentalimplantsguide.com/dental-implants-in-mexico-cost/",
+     "label": "Mexico Dental Implants Guide 2026",
+     "as_of": "2026"
+    },
+    {
+     "low": 200,
+     "high": 600,
+     "source": "https://www.placidway.com/article/4307/dental-implants-in-mexico-cities-costs-comparison",
+     "label": "PlacidWay Mexico city comparison (June 2026 pricing)",
+     "as_of": "2026-06",
+     "region": "Los Algodones"
+    },
+    {
+     "low": 200,
+     "high": 500,
+     "source": "https://www.placidway.com/article/4307/dental-implants-in-mexico-cities-costs-comparison",
+     "label": "PlacidWay Mexico city comparison (June 2026 pricing)",
+     "as_of": "2026-06",
+     "region": "Tijuana"
+    },
+    {
+     "low": 300,
+     "high": 800,
+     "source": "https://www.placidway.com/article/4307/dental-implants-in-mexico-cities-costs-comparison",
+     "label": "PlacidWay Mexico city comparison (June 2026 pricing)",
+     "as_of": "2026-06",
+     "region": "Cancún"
+    },
+    {
+     "low": 420,
+     "high": 420,
+     "source": "https://www.algodonesdentalcenter.com/los-algodones-dental-price-list/",
+     "label": "Algodones Dental Center price list (per unit)",
+     "as_of": "2026",
+     "region": "Los Algodones"
+    }
+   ],
+   "sinus_lift": [
+    {
+     "low": 700,
+     "high": 700,
+     "source": "https://www.algodonesdentalcenter.com/los-algodones-dental-price-list/",
+     "label": "Algodones Dental Center price list",
+     "as_of": "2026",
+     "region": "Los Algodones"
+    },
+    {
+     "low": 700,
+     "high": 700,
+     "source": "https://dentalsolutionsalgodones.com/price-list/",
+     "label": "Dental Solutions Algodones price list",
+     "as_of": "2026",
+     "region": "Los Algodones"
+    },
+    {
+     "low": 725,
+     "high": 725,
+     "source": "https://www.medicaltourismco.com/dental-work-in-tijuana-cost-quality-and-reviews/",
+     "label": "MedicalTourismCo city comparison",
+     "as_of": "2026",
+     "region": "Tijuana"
+    },
+    {
+     "low": 825,
+     "high": 825,
+     "source": "https://www.medicaltourismco.com/dental-work-in-tijuana-cost-quality-and-reviews/",
+     "label": "MedicalTourismCo city comparison",
+     "as_of": "2026",
+     "region": "Cancún"
+    }
+   ]
+  },
+  "CR": {
+   "single_implant": [
+    {
+     "low": 800,
+     "high": 1600,
+     "source": "https://vitalityscout.com/guides/costa-rica-dental-prices",
+     "label": "VitalityScout: lowest published prices on 6 San José/Escazú clinic sites (inclusions vary)",
+     "as_of": "2026-07"
+    }
+   ],
+   "all_on_4": [
+    {
+     "low": 8500,
+     "high": 14500,
+     "source": "https://www.medicaltourismco.com/all-on-4-dental-implant-in-costa-rica/",
+     "label": "MedicalTourismCo Costa Rica All-on-4",
+     "as_of": "2026"
+    },
+    {
+     "low": 8500,
+     "high": 12500,
+     "source": "https://www.placidway.com/search-medical-pricings/All-on-4-Dental-Implants+Dentistry/Costa-Rica/1",
+     "label": "PlacidWay Costa Rica All-on-4 (single arch)",
+     "as_of": "2026-06"
+    },
+    {
+     "low": 9500,
+     "high": 9500,
+     "source": "https://www.dentavacation.com/cost-of-dental-implants-in-costa-rica/",
+     "label": "DentaVacation partner clinics",
+     "as_of": "2026"
+    },
+    {
+     "low": 10558,
+     "high": 12000,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 4 clinics",
+     "as_of": "2026-10-11",
+     "region": "San José",
+     "avg": 11705
+    },
+    {
+     "low": 7500,
+     "high": 9925,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 4 clinics",
+     "as_of": "2026-10-12",
+     "region": "Escazú",
+     "avg": 8950
+    }
+   ],
+   "all_on_6": [
+    {
+     "low": 10000,
+     "high": 14000,
+     "source": "https://www.placidway.com/search-medical-pricings/All-on-4-Dental-Implants+Dentistry/Costa-Rica/1",
+     "label": "PlacidWay Costa Rica (All-on-6 single arch)",
+     "as_of": "2026-06"
+    },
+    {
+     "low": 13500,
+     "high": 13500,
+     "source": "https://www.dentavacation.com/cost-of-dental-implants-in-costa-rica/",
+     "label": "DentaVacation partner clinics",
+     "as_of": "2026"
+    }
+   ],
+   "crown": [
+    {
+     "low": 505,
+     "high": 610,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 3 clinics",
+     "as_of": "2026-10-07",
+     "region": "San José",
+     "avg": 560
+    },
+    {
+     "low": 440,
+     "high": 440,
+     "source": "https://vitalityscout.com/guides/costa-rica-dental-prices",
+     "label": "VitalityScout: Costa Rica Dental Team zirconia/E-max crown",
+     "as_of": "2026-07",
+     "region": "San José"
+    }
+   ],
+   "veneer": [],
+   "root_canal": [],
+   "cleaning": [],
+   "bone_graft": [],
+   "sinus_lift": []
+  },
+  "CO": {
+   "single_implant": [
+    {
+     "low": 1124,
+     "high": 1554,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 4 clinics",
+     "as_of": "2026-10-21",
+     "region": "Medellín",
+     "avg": 1350
+    },
+    {
+     "low": 1385,
+     "high": 1500,
+     "source": "https://www.dentaltourismcolombia.com/care-blog/how-to-get-dental-implants-in-medellin",
+     "label": "Dental Tourism Colombia, Medellín price table (facilitator)",
+     "as_of": "2026",
+     "region": "Medellín"
+    },
+    {
+     "low": 1400,
+     "high": 1400,
+     "source": "https://www.drtamarasmile.com/index-en",
+     "label": "Smile Atelier (Dr. Roberto Tamara), Bogotá clinic price list, 'from' prices",
+     "as_of": "2026-10-28",
+     "region": "Bogotá"
+    }
+   ],
+   "all_on_4": [
+    {
+     "low": 8250,
+     "high": 9419,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 4 clinics",
+     "as_of": "2026-10-21",
+     "region": "Medellín",
+     "avg": 9113
+    },
+    {
+     "low": 6900,
+     "high": 10300,
+     "source": "https://www.dentaltourismcolombia.com/care-blog/how-to-get-dental-implants-in-medellin",
+     "label": "Dental Tourism Colombia, Medellín price table (facilitator)",
+     "as_of": "2026",
+     "region": "Medellín"
+    },
+    {
+     "low": 7050,
+     "high": 9680,
+     "source": "https://www.dentaltourismcolombia.com/dental-implants-bogota",
+     "label": "Dental Tourism Colombia, Bogotá price table (facilitator)",
+     "as_of": "2026",
+     "region": "Bogotá"
+    },
+    {
+     "low": 8800,
+     "high": 8800,
+     "source": "https://www.drtamarasmile.com/index-en",
+     "label": "Smile Atelier (Dr. Roberto Tamara), Bogotá clinic price list, 'from' prices",
+     "as_of": "2026-10-28",
+     "region": "Bogotá"
+    }
+   ],
+   "all_on_6": [
+    {
+     "low": 9580,
+     "high": 11880,
+     "source": "https://www.dentaltourismcolombia.com/care-blog/how-to-get-dental-implants-in-medellin",
+     "label": "Dental Tourism Colombia, Medellín price table (facilitator)",
+     "as_of": "2026",
+     "region": "Medellín"
+    },
+    {
+     "low": 8980,
+     "high": 11940,
+     "source": "https://www.dentaltourismcolombia.com/dental-implants-bogota",
+     "label": "Dental Tourism Colombia, Bogotá price table (facilitator)",
+     "as_of": "2026",
+     "region": "Bogotá"
+    },
+    {
+     "low": 10600,
+     "high": 10600,
+     "source": "https://www.drtamarasmile.com/index-en",
+     "label": "Smile Atelier (Dr. Roberto Tamara), Bogotá clinic price list, 'from' prices",
+     "as_of": "2026-10-28",
+     "region": "Bogotá"
+    }
+   ],
+   "crown": [
+    {
+     "low": 382,
+     "high": 445,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 9 clinics",
+     "as_of": "2026-10-25",
+     "region": "Medellín",
+     "avg": 400
+    },
+    {
+     "low": 243,
+     "high": 472,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 4 clinics",
+     "as_of": "2026-10-25",
+     "region": "Bogotá",
+     "avg": 342
+    },
+    {
+     "low": 400,
+     "high": 400,
+     "source": "https://www.drtamarasmile.com/index-en",
+     "label": "Smile Atelier (Dr. Roberto Tamara), Bogotá clinic price list, 'from' prices",
+     "as_of": "2026-10-28",
+     "region": "Bogotá"
+    }
+   ],
+   "veneer": [
+    {
+     "low": 396,
+     "high": 499,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 8 clinics",
+     "as_of": "2026-10-24",
+     "region": "Medellín",
+     "avg": 477
+    },
+    {
+     "low": 195,
+     "high": 455,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 4 clinics",
+     "as_of": "2026-10-25",
+     "region": "Bogotá",
+     "avg": 310
+    },
+    {
+     "low": 400,
+     "high": 400,
+     "source": "https://www.drtamarasmile.com/index-en",
+     "label": "Smile Atelier (Dr. Roberto Tamara), Bogotá clinic price list, 'from' prices",
+     "as_of": "2026-10-28",
+     "region": "Bogotá"
+    }
+   ],
+   "root_canal": [
+    {
+     "low": 148,
+     "high": 251,
+     "source": "https://toothcation.com/price-index.csv",
+     "label": "Toothcation price index (p25–p75 of published clinic prices, median shown), 8 clinics",
+     "as_of": "2026-10-25",
+     "region": "Medellín",
+     "avg": 207
+    }
+   ],
+   "cleaning": [
+    {
+     "low": 80,
+     "high": 80,
+     "source": "https://www.drtamarasmile.com/index-en",
+     "label": "Smile Atelier (Dr. Roberto Tamara), Bogotá clinic price list, 'from' prices",
+     "as_of": "2026-10-28",
+     "region": "Bogotá"
+    }
+   ],
+   "bone_graft": [],
+   "sinus_lift": [
+    {
+     "low": 405,
+     "high": 810,
+     "source": "https://www.dentaltourismcolombia.com/care-blog/how-to-get-dental-implants-in-medellin",
+     "label": "Dental Tourism Colombia (unilateral–bilateral)",
+     "as_of": "2026",
+     "region": "Medellín"
+    }
+   ]
+  },
+  "AR": {
+   "single_implant": [
+    {
+     "low": 1000,
+     "high": 1800,
+     "source": "https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/",
+     "label": "Consultorios Dra. Blois (Buenos Aires)",
+     "as_of": "2026",
+     "region": "Buenos Aires"
+    },
+    {
+     "low": 3000,
+     "high": 3500,
+     "source": "https://www.amesteticadental.com/en/dental-implants-cost-buenos-aires",
+     "label": "AM Estética Dental, all-in incl. extraction/graft, 'from' prices",
+     "as_of": "2026",
+     "region": "Buenos Aires"
+    }
+   ],
+   "all_on_4": [
+    {
+     "low": 8000,
+     "high": 12000,
+     "source": "https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/",
+     "label": "Consultorios Dra. Blois (All-on-4/6, national implants + provisional fixed prosthesis)",
+     "as_of": "2026",
+     "region": "Buenos Aires"
+    }
+   ],
+   "all_on_6": [
+    {
+     "low": 8000,
+     "high": 12000,
+     "source": "https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/",
+     "label": "Consultorios Dra. Blois (All-on-4/6, same published range)",
+     "as_of": "2026",
+     "region": "Buenos Aires"
+    }
+   ],
+   "crown": [
+    {
+     "low": 450,
+     "high": 800,
+     "source": "https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/",
+     "label": "Consultorios Dra. Blois (implant crown)",
+     "as_of": "2026",
+     "region": "Buenos Aires"
+    }
+   ],
+   "veneer": [
+    {
+     "low": 1000,
+     "high": 1500,
+     "source": "https://www.amesteticadental.com/precio-carillas-dentales-buenos-aires",
+     "label": "AM Estética Dental (ceramic veneer per tooth; resin USD 500)",
+     "as_of": "2026",
+     "region": "Buenos Aires"
+    }
+   ],
+   "root_canal": [],
+   "cleaning": [],
+   "bone_graft": [
+    {
+     "low": 300,
+     "high": 1500,
+     "source": "https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/",
+     "label": "Consultorios Dra. Blois (bone graft or sinus lift)",
+     "as_of": "2026",
+     "region": "Buenos Aires"
+    }
+   ],
+   "sinus_lift": [
+    {
+     "low": 300,
+     "high": 1500,
+     "source": "https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/",
+     "label": "Consultorios Dra. Blois (bone graft or sinus lift, same published range)",
+     "as_of": "2026",
+     "region": "Buenos Aires"
+    }
+   ]
+  }
+ },
+ "local_currency": {
+  "AR": [
+   {
+    "text": "Implants ARS 480,000–1,200,000 depending on brand; bone graft ARS 250,000–700,000",
+    "region": "Buenos Aires",
+    "source": "https://soluciondental.com.ar/tratamientos/implantes-dentales-precios-caba/",
+    "label": "Solución Dental",
+    "as_of": "2026"
+   },
+   {
+    "text": "Implants from ARS 500,000",
+    "region": "Córdoba",
+    "source": "https://www.sublimis.com/odontologia-argentina-implantes-dentales.html",
+    "label": "Sublimis",
+    "as_of": "2026"
+   },
+   {
+    "text": "Root canal ARS 180,000 (1 canal) to ARS 350,000 (4 canals)",
+    "region": "Córdoba",
+    "source": "https://agendapro.com/site/ar/rssaludyestetica/53418",
+    "label": "RS Salud y Estética booking page",
+    "as_of": "2026-10"
+   },
+   {
+    "text": "Complete implant treatment (implant, provisional and final crown) ARS 950,000",
+    "region": "Rosario",
+    "source": "https://www.clinicabd.com/",
+    "label": "BD Estudio Dental",
+    "as_of": "2026"
+   }
+  ],
+  "CO": [
+   {
+    "text": "Neodent implant COP 2,200,000–2,400,000 (implant only)",
+    "region": "Medellín",
+    "source": "https://dentioral.com/english/",
+    "label": "Dentioral",
+    "as_of": "2026-10-28"
+   }
+  ]
+ },
+ "missing": [
+  "Mexico: no sourced single-implant figure for Mexico City; no cleaning figures",
+  "Costa Rica: no sourced veneer, root canal, cleaning, bone graft or sinus lift figures",
+  "Colombia: bone graft only published per gram (USD 230/g, Dental Tourism Colombia), not comparable per site",
+  "Argentina: Córdoba and Rosario prices only in ARS (not converted due to exchange-rate volatility); Mendoza: no published price found; no USD root canal or cleaning figures",
+  "US: no neutral sinus lift source; All-on-6 only from a facilitator's stated average",
+  "Dentures: sources use different units (single vs both arches), so not compared",
+  "Turkey, Hungary, Poland, Panama, Dominican Republic: not added in this round"
+ ]
 }

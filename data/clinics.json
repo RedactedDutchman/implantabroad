@@ -1,259 +1,1232 @@
 {
- "note": "Website existence checked only. No credential, quality or registration verification. No endorsements.",
+ "note": "Websites opened by automated fetch on 2026-10-28; languages and accreditation are only what the site text mentions (keyword scan), not verified. No endorsements.",
  "clinics": [
   {
    "name": "SOTA Dental",
    "country": "MX",
-   "url": "https://sotadental.com/",
-   "procedures": [
-    "single_implant",
-    "all_on_4"
-   ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
    "cities": [
     "Cancún",
     "Los Algodones",
     "Tijuana"
-   ]
+   ],
+   "url": "https://sotadental.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "crown"
+   ],
+   "languages": [
+    "not checked (site blocked automated check)"
+   ],
+   "publishes_prices": true,
+   "price_page": "https://sotadental.com/price-list/",
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 403,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Marietta Dental Care",
    "country": "MX",
+   "cities": [
+    "Los Algodones",
+    "Tijuana"
+   ],
    "url": "https://www.mariettadentalcare.com.mx/",
    "procedures": [
     "single_implant",
     "all_on_4"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
-   "cities": [
-    "Los Algodones",
-    "Tijuana"
-   ]
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Sani Dental Group",
    "country": "MX",
+   "cities": [
+    "Los Algodones",
+    "Cancún"
+   ],
    "url": "https://sanidentalgroup.com/",
    "procedures": [
     "single_implant",
     "all_on_4",
     "crown"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
-   "cities": [
-    "Los Algodones",
-    "Cancún"
-   ]
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "North Dental",
    "country": "MX",
+   "cities": [
+    "Los Algodones"
+   ],
    "url": "https://northdentalmx.com/",
    "procedures": [
     "single_implant",
     "all_on_4"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
-   "cities": [
-    "Los Algodones"
-   ]
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Grand Diamond Dental",
    "country": "MX",
+   "cities": [
+    "Los Algodones"
+   ],
    "url": "https://www.granddiamonddental.com/",
    "procedures": [
     "single_implant",
     "all_on_4"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
-   "cities": [
-    "Los Algodones"
-   ]
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Algodones Dental Center",
    "country": "MX",
+   "cities": [
+    "Los Algodones"
+   ],
    "url": "https://www.algodonesdentalcenter.com/",
    "procedures": [
     "single_implant",
     "all_on_4",
     "bone_graft"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
-   "cities": [
-    "Los Algodones"
-   ]
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": true,
+   "price_page": "https://www.algodonesdentalcenter.com/los-algodones-dental-price-list/",
+   "accreditation_mentioned_on_site": [
+    "ITI"
+   ],
+   "implant_brands_mentioned": [
+    "Straumann",
+    "Nobel Biocare",
+    "Zimmer"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Dental Solutions Algodones",
    "country": "MX",
+   "cities": [
+    "Los Algodones"
+   ],
    "url": "https://dentalsolutionsalgodones.com/",
    "procedures": [
     "single_implant",
     "all_on_4",
     "bone_graft"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": true,
+   "price_page": "https://dentalsolutionsalgodones.com/price-list/",
+   "accreditation_mentioned_on_site": [
+    "American Dental Association"
+   ],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "InStyle Dental",
+   "country": "MX",
    "cities": [
-    "Los Algodones"
-   ]
+    "Tijuana"
+   ],
+   "url": "https://instyledentaltj.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "crown",
+    "veneer"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": true,
+   "price_page": "https://instyledentaltj.com/pricing/",
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Smile Implant Center",
+   "country": "MX",
+   "cities": [
+    "Mexico City"
+   ],
+   "url": "https://www.smileimplantcenter.com.mx/en/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "all_on_6"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 403,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Altum Dental Care",
+   "country": "MX",
+   "cities": [
+    "Mexico City"
+   ],
+   "url": "https://www.altumdentalcare.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "all_on_6"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "OM Dental",
+   "country": "MX",
+   "cities": [
+    "Mexico City"
+   ],
+   "url": "https://omdental.mx/en/",
+   "procedures": [
+    "single_implant",
+    "crown"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "DrDiente Polanco",
+   "country": "MX",
+   "cities": [
+    "Mexico City"
+   ],
+   "url": "https://www.clinicadrdiente.com/dental-implants-mexico-city",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "all_on_6"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [
+    "COFEPRIS",
+    "ITI"
+   ],
+   "implant_brands_mentioned": [
+    "Straumann",
+    "Nobel Biocare"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "La Clínica Dental",
+   "country": "MX",
+   "cities": [
+    "Mexico City"
+   ],
+   "url": "https://laclinica.mx/en/",
+   "procedures": [
+    "single_implant",
+    "veneer"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 500,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Prisma Dental",
    "country": "CR",
+   "cities": [
+    "San José"
+   ],
    "url": "https://prismadental.com/",
    "procedures": [
     "single_implant",
     "all_on_4"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
-   "cities": [
-    "San José"
-   ]
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Meza Dental Care",
    "country": "CR",
+   "cities": [
+    "San José"
+   ],
    "url": "https://www.mezadentalcare.com/",
    "procedures": [
     "single_implant",
-    "all_on_4"
+    "all_on_4",
+    "all_on_6"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
-   "cities": [
-    "San José"
-   ]
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [
+    "AACD"
+   ],
+   "implant_brands_mentioned": [
+    "Zimmer"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Goodness Dental",
    "country": "CR",
+   "cities": [
+    "Escazú"
+   ],
    "url": "https://www.goodnessdental.com/",
    "procedures": [
     "single_implant"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Flikier Dental Institute",
+   "country": "CR",
+   "cities": [
+    "San José"
+   ],
+   "url": "https://www.dentalinstitutecr.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "crown",
+    "veneer"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [
+    "Zimmer"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Costa Rica Dental Team",
+   "country": "CR",
+   "cities": [
+    "San José"
+   ],
+   "url": "https://www.costaricadentalteam.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "crown"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "ConfiDental",
+   "country": "CR",
+   "cities": [
+    "San José"
+   ],
+   "url": "https://confidentalcr.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [
+    "Straumann",
+    "Nobel Biocare",
+    "Zimmer"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Sonria Dental Clinic",
+   "country": "CR",
+   "cities": [
+    "San José"
+   ],
+   "url": "https://sonriacr.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "all_on_6"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [
+    "American Dental Association",
+    "AACD"
+   ],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Nova Dental",
+   "country": "CR",
    "cities": [
     "Escazú"
-   ]
+   ],
+   "url": "https://novadentalcr.com/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "root_canal"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [
+    "Colegio de Cirujanos Dentistas"
+   ],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Dentioral",
+   "country": "CO",
+   "cities": [
+    "Medellín"
+   ],
+   "url": "https://dentioral.com/english/",
+   "procedures": [
+    "single_implant",
+    "veneer"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": true,
+   "price_page": "https://dentioral.com/english/",
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [
+    "Straumann",
+    "Neodent"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Clínica Dental Dacosta",
+   "country": "CO",
+   "cities": [
+    "Medellín"
+   ],
+   "url": "https://clinicadentaldacosta.com/en/",
+   "procedures": [
+    "single_implant",
+    "veneer"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [
+    "Straumann"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Medellín Dental Solutions",
+   "country": "CO",
+   "cities": [
+    "Medellín"
+   ],
+   "url": "https://medellindentalsolutions.com/",
+   "procedures": [
+    "single_implant"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [
+    "Straumann"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Colombia Care Dental",
+   "country": "CO",
+   "cities": [
+    "Medellín"
+   ],
+   "url": "https://colombiacaredental.com/dental-implants/",
+   "procedures": [
+    "single_implant",
+    "all_on_4"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [
+    "Straumann",
+    "Nobel Biocare"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Smile Atelier (Dr. Roberto Tamara)",
+   "country": "CO",
+   "cities": [
+    "Bogotá"
+   ],
+   "url": "https://www.drtamarasmile.com/index-en",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "all_on_6",
+    "crown",
+    "veneer",
+    "cleaning"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": true,
+   "price_page": "https://www.drtamarasmile.com/index-en",
+   "accreditation_mentioned_on_site": [
+    "ITI"
+   ],
+   "implant_brands_mentioned": [
+    "Straumann"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Dr. Alex Garcia Navarro",
+   "country": "CO",
+   "cities": [
+    "Bogotá"
+   ],
+   "url": "https://dralexgarcianavarro.com/",
+   "procedures": [
+    "single_implant"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Avidental",
+   "country": "CO",
+   "cities": [
+    "Bogotá",
+    "Cartagena"
+   ],
+   "url": "https://avidental.com/",
+   "procedures": [
+    "single_implant"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [
+    "Straumann",
+    "Neodent"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Maple Dental",
+   "country": "CO",
+   "cities": [
+    "Cartagena"
+   ],
+   "url": "https://mapledental.co/",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "all_on_6"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Dr. Manuel Guillermo Pattigno",
+   "country": "CO",
+   "cities": [
+    "Cartagena"
+   ],
+   "url": "https://www.odontologocartagena.com/",
+   "procedures": [
+    "single_implant"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [
+    "Straumann"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Consultorios Dra. Blois",
    "country": "AR",
+   "cities": [
+    "Buenos Aires"
+   ],
    "url": "https://drablois.com/",
    "procedures": [
     "single_implant",
     "all_on_4",
     "bone_graft"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
-   "cities": [
-    "Buenos Aires"
-   ]
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": true,
+   "price_page": "https://drablois.com/cuanto-cuesta-un-implante-dental-en-buenos-aires/",
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "AmoSmile",
    "country": "AR",
+   "cities": [
+    "Buenos Aires"
+   ],
    "url": "https://amosmile.ar/implantes/",
    "procedures": [
     "single_implant"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
-   "cities": [
-    "Buenos Aires"
-   ]
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": true,
+   "price_page": "https://amosmile.ar/implantes/",
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [
+    "Straumann"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "AM Estética Dental",
    "country": "AR",
-   "url": "https://www.amesteticadental.com/",
-   "procedures": [
-    "single_implant"
-   ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
    "cities": [
     "Buenos Aires"
-   ]
+   ],
+   "url": "https://www.amesteticadental.com/",
+   "procedures": [
+    "single_implant",
+    "veneer"
+   ],
+   "languages": [
+    "not checked (site blocked automated check)"
+   ],
+   "publishes_prices": true,
+   "price_page": "https://www.amesteticadental.com/en/dental-implants-cost-buenos-aires",
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 0,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Od. Clara Rossello",
    "country": "AR",
+   "cities": [
+    "Buenos Aires"
+   ],
    "url": "https://www.odclararossello.com.ar/",
    "procedures": [
     "single_implant",
     "crown"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
-   "cities": [
-    "Buenos Aires"
-   ]
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [
+    "matrícula (M.N./M.P.)"
+   ],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Solución Dental",
    "country": "AR",
+   "cities": [
+    "Buenos Aires"
+   ],
    "url": "https://soluciondental.com.ar/",
    "procedures": [
     "single_implant",
     "bone_graft"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": true,
+   "price_page": "https://soluciondental.com.ar/tratamientos/implantes-dentales-precios-caba/",
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Dental DAS Group Argentina",
+   "country": "AR",
    "cities": [
     "Buenos Aires"
-   ]
+   ],
+   "url": "https://www.dental-argentina.com.ar/ingles/dental_implants/",
+   "procedures": [
+    "single_implant"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "SISO Dental",
+   "country": "AR",
+   "cities": [
+    "Buenos Aires"
+   ],
+   "url": "https://sisodental.com.ar/en/implantes/",
+   "procedures": [
+    "single_implant"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Pineda Dental Studio",
+   "country": "AR",
+   "cities": [
+    "Buenos Aires"
+   ],
+   "url": "https://www.pinedadentalstudio.com/dental-implants-veneers-buenos-aires",
+   "procedures": [
+    "single_implant",
+    "veneer"
+   ],
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [
+    "matrícula (M.N./M.P.)"
+   ],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Sublimis",
    "country": "AR",
+   "cities": [
+    "Córdoba"
+   ],
    "url": "https://www.sublimis.com/odontologia-argentina-implantes-dentales.html",
    "procedures": [
     "single_implant"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
-   "cities": [
-    "Córdoba"
-   ]
+   "languages": [
+    "Spanish",
+    "English"
+   ],
+   "publishes_prices": true,
+   "price_page": "https://www.sublimis.com/odontologia-argentina-implantes-dentales.html",
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [
+    "Zimmer"
+   ],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "BIS Odontología",
    "country": "AR",
+   "cities": [
+    "Córdoba"
+   ],
    "url": "https://bisodontologia.com/implantes-dentales/",
    "procedures": [
     "single_implant"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
-   "cities": [
-    "Córdoba"
-   ]
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [
+    "matrícula (M.N./M.P.)"
+   ],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   },
   {
    "name": "Clínica Dental Torreblanca",
    "country": "AR",
+   "cities": [
+    "Córdoba"
+   ],
    "url": "https://torreblancaodontologia.com.ar/",
    "procedures": [
     "single_implant"
    ],
-   "status": "unverified listing - not yet partnered",
-   "website_checked": "2026-10-27",
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Dental Mendoza",
+   "country": "AR",
    "cities": [
-    "Córdoba"
-   ]
+    "Mendoza"
+   ],
+   "url": "https://dentalmendoza.com.ar/implantes/",
+   "procedures": [
+    "single_implant"
+   ],
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Clínica Mussuto",
+   "country": "AR",
+   "cities": [
+    "Mendoza"
+   ],
+   "url": "https://www.clinicamussuto.com.ar/implantes-dentales.php",
+   "procedures": [
+    "single_implant",
+    "all_on_4",
+    "bone_graft",
+    "root_canal"
+   ],
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "BD Estudio Dental",
+   "country": "AR",
+   "cities": [
+    "Rosario"
+   ],
+   "url": "https://www.clinicabd.com/",
+   "procedures": [
+    "single_implant"
+   ],
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": true,
+   "price_page": "https://www.clinicabd.com/",
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
+  },
+  {
+   "name": "Odontología Venezia",
+   "country": "AR",
+   "cities": [
+    "Rosario"
+   ],
+   "url": "https://odontologiavenezia.com/",
+   "procedures": [
+    "single_implant",
+    "veneer"
+   ],
+   "languages": [
+    "Spanish"
+   ],
+   "publishes_prices": false,
+   "price_page": null,
+   "accreditation_mentioned_on_site": [],
+   "implant_brands_mentioned": [],
+   "site_check": {
+    "http_status": 200,
+    "checked": "2026-10-28",
+    "method": "automated fetch + keyword scan"
+   },
+   "status": "unverified listing - not yet partnered"
   }
  ]
 }
